@@ -1,0 +1,224 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Your Name</title>
+  <style>
+    :root {
+      --text: #222;
+      --muted: #666;
+      --link: #0b57d0;
+      --border: #ddd;
+      --bg: #fff;
+      --max-width: 820px;
+    }
+
+    html {
+      scroll-behavior: smooth;
+    }
+
+    body {
+      margin: 0;
+      padding: 0;
+      font-family: Georgia, "Times New Roman", serif;
+      line-height: 1.6;
+      color: var(--text);
+      background: var(--bg);
+    }
+
+    .container {
+      max-width: var(--max-width);
+      margin: 0 auto;
+      padding: 2rem 1.25rem 4rem;
+    }
+
+    header {
+      margin-bottom: 2rem;
+      padding-bottom: 1rem;
+      border-bottom: 1px solid var(--border);
+    }
+
+    h1 {
+      margin: 0 0 0.25rem;
+      font-size: 2.2rem;
+      font-weight: 700;
+    }
+
+    .subtitle {
+      color: var(--muted);
+      margin: 0.2rem 0;
+    }
+
+    nav {
+      margin-top: 1rem;
+    }
+
+    nav a {
+      margin-right: 1rem;
+      text-decoration: none;
+      color: var(--link);
+    }
+
+    nav a:hover {
+      text-decoration: underline;
+    }
+
+    section {
+      margin-top: 2.5rem;
+    }
+
+    h2 {
+      font-size: 1.4rem;
+      margin-bottom: 0.75rem;
+      border-bottom: 1px solid var(--border);
+      padding-bottom: 0.3rem;
+    }
+
+    a {
+      color: var(--link);
+    }
+
+    ul {
+      padding-left: 1.2rem;
+    }
+
+    li {
+      margin-bottom: 0.55rem;
+    }
+
+    .pub-title {
+      font-weight: 600;
+    }
+
+    .pub-meta {
+      color: var(--muted);
+    }
+
+    footer {
+      margin-top: 3rem;
+      padding-top: 1rem;
+      border-top: 1px solid var(--border);
+      color: var(--muted);
+      font-size: 0.95rem;
+    }
+
+    .small {
+      color: var(--muted);
+      font-size: 0.95rem;
+    }
+
+    @media (max-width: 600px) {
+      h1 {
+        font-size: 1.8rem;
+      }
+
+      nav a {
+        display: inline-block;
+        margin-bottom: 0.4rem;
+      }
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <header>
+      <h1>Your Name</h1>
+      <p class="subtitle">PhD Candidate in [Department], [University]</p>
+      <p class="subtitle">Research interests: combinatorial optimization, approximation algorithms, graph algorithms</p>
+
+      <nav>
+        <a href="#about">About</a>
+        <a href="#research">Research</a>
+        <a href="#publications">Publications</a>
+        <a href="#teaching">Teaching</a>
+        <a href="#contact">Contact</a>
+        <a href="cv.pdf">CV</a>
+      </nav>
+    </header>
+
+    <section id="about">
+      <h2>About</h2>
+      <p>
+        I am a PhD candidate in [Department] at [University], advised by [Advisor Name].
+        My research focuses on [brief description of your area].
+      </p>
+      <p>
+        Before joining [University], I completed [previous degree] at [institution].
+      </p>
+    </section>
+
+    <section id="research">
+      <h2>Research</h2>
+      <p>
+        My work lies broadly in theoretical computer science, with interests in
+        approximation algorithms, combinatorial optimization, and graph algorithms.
+      </p>
+      <ul>
+        <li>Unsplittable multicommodity flow in special graph classes</li>
+        <li>Approximation algorithms for packing and assignment problems</li>
+        <li>Optimization under symmetric norm constraints</li>
+      </ul>
+    </section>
+
+    <section id="publications">
+      <h2>Selected Publications</h2>
+      <ul>
+        <li>
+          <span class="pub-title">Title of Paper One</span><br>
+          Your Name, Coauthor One, Coauthor Two<br>
+          <span class="pub-meta">Conference/Journal, Year</span>
+          |
+          <a href="#">paper</a>
+          |
+          <a href="#">arXiv</a>
+        </li>
+
+        <li>
+          <span class="pub-title">Title of Paper Two</span><br>
+          Your Name, Coauthor One<br>
+          <span class="pub-meta">Conference/Journal, Year</span>
+          |
+          <a href="#">paper</a>
+        </li>
+
+        <li>
+          <span class="pub-title">Title of Paper Three</span><br>
+          Your Name, Coauthor One, Coauthor Two<br>
+          <span class="pub-meta">Conference/Journal, Year</span>
+        </li>
+      </ul>
+      <p class="small">
+        For a full list, see my <a href="cv.pdf">CV</a>.
+      </p>
+    </section>
+
+    <section id="teaching">
+      <h2>Teaching</h2>
+      <ul>
+        <li>Course Name, Role, Term</li>
+        <li>Course Name, Role, Term</li>
+        <li>Course Name, Role, Term</li>
+      </ul>
+    </section>
+
+    <section id="contact">
+      <h2>Contact</h2>
+      <p>
+        Email: <a href="mailto:yourname@university.edu">yourname@university.edu</a><br>
+        Office: [Building], [Room Number]<br>
+        University: [University Name]
+      </p>
+      <p>
+        <a href="https://scholar.google.com/">Google Scholar</a> |
+        <a href="https://arxiv.org/">arXiv</a> |
+        <a href="https://github.com/yourusername">GitHub</a>
+      </p>
+    </section>
+
+    <footer>
+      Last updated: March 2026
+    </footer>
+  </div>
+</body>
+</html>
